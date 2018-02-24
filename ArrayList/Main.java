@@ -15,7 +15,7 @@ while (!(command==5)) {
 		"\n 1 X: put X at the end of arraylist"+ "\n 2 Y: remove 
 all Ys from arraylist" 
 				+ "\n 3: print size of the arraylist"+ 
-"\n 4: prints arraylist");
+"\n 4: prints arraylist" + "\n 5: exit");
 
       command=scanner.nextInt();
       if(command==1 || command==2){
